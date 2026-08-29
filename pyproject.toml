@@ -8,12 +8,12 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "streamlit>=1.61.1",
+    "streamlit>=1.62.0",
 ]
 
 [project.scripts]
 pizza-los-viernes = "pizza_los_viernes:main"
 
 [build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
+requires = ["uv_build>=0.12.7,<0.13.0"]
 build-backend = "uv_build"
